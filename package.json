@@ -1,0 +1,20 @@
+{
+    "name": "abhisawesome.github.io",
+    "version": "1.0.1",
+    "description": "Personal portfolio website",
+    "homepage": "https://abhisawesome.github.io",
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d . -b main --nojekyll",
+      "build": "echo 'No build step required for static files'"
+    },
+    "keywords": [
+      "portfolio",
+      "website"
+    ],
+    "author": "Abhijith V",
+    "license": "ISC",
+    "devDependencies": {
+      "gh-pages": "^6.1.0"
+    }
+} 
